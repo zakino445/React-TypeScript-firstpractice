@@ -5,17 +5,17 @@ export const typeList = () => {
   //boolean 論理
   let bool: boolean = true;
 
-  //number　数値
+  //number 数値
   let number: number = 0;
 
-  //string　文字
+  //string 文字
   let str: string = "A";
 
   //Array 配列
   let arr1: Array<number> = [0, 1, 2];
   let arr2: number[] = [0, 1, 2];
 
-  //tuple　配列の順番で指定
+  //tuple 配列の順番で指定
   let tuple: [number, string] = [0, "A"];
 
   //any なんでも
