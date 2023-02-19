@@ -1,6 +1,7 @@
-import { Practice } from "./pratices/Practice";
-import { PracticeReturn } from "./pratices/PracticeReturn";
-import { PracticeVariable } from "./pratices/PracticeVariable";
+import { Practice } from "./practices/Practice";
+import { PracticeConfig } from "./practices/PracticeConfig";
+import { PracticeReturn } from "./practices/PracticeReturn";
+import { PracticeVariable } from "./practices/PracticeVariable";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Practice />
       <PracticeReturn />
       <PracticeVariable />
+      <PracticeConfig />
     </div>
   );
 }
