@@ -1,3 +1,9 @@
+import { Practice } from "./pratices/Practice";
+
 export default function App() {
-  return <></>;
+  return (
+    <div>
+      <Practice />
+    </div>
+  );
 }
